@@ -1,3 +1,2 @@
-# CosmicRay_Analysis_demo
-nbviewer link for GEO_to_GSE_demo.ipynb</br>
-https://nbviewer.org/github/MKozai/CosmicRay_Analysis_demo/blob/main/GEO_to_GSE_demo.ipynb
+# CR-aniso
+Program codes to analyze cosmic-ray anisotropy and density observed by ground-based muon detectors and neutron monitors.
