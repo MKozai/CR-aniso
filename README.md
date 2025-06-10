@@ -9,6 +9,7 @@ GMDN data and descriptions: http://hdl.handle.net/10091/0002001448
 - my_modules/spherical_harmonics.py: Functions handling anisotropy in spherical harmonics.
   - Libraries: fire, numpy, pandarallel, pandas, pyshtools, pyspedas, pytplot, scipy.
   - geo_to_gse(): Convert spherical harmonics from the geocentric (GEO) coordinate system to the Geocentric Solar Ecliptic (GSE) coordinate system.
+- my_modules/utils.py: Utilities used by programs above.
 
 ## Demonstrations
 - GEO_to_GSE_demo.ipynb: Demonstration to convert spherical harmonics from the GEO to the GSE coordinate system.
