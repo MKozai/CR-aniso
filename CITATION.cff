@@ -6,7 +6,7 @@ authors:
   orcid: "https://orcid.org/0000-0002-3948-3666"
 title: "CR-aniso"
 abstract: >
-  Please follow the license and cite the DOI when you use this software.
+  Programs to analyze cosmic-ray anisotropies and density mainly observed by the Global Muon Detector Network (GMDN; http://hdl.handle.net/10091/0002001448 ). Please follow the license and cite the DOI when you use this software.
 doi: xxx
 date-released: 2025-06-10
 url: "https://github.com/MKozai/CR-aniso"
