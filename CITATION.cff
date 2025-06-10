@@ -5,7 +5,8 @@ authors:
   given-names: "Masayoshi"
   orcid: "https://orcid.org/0000-0002-3948-3666"
 title: "CR-aniso"
-version: 1.0.0
+abstract: >
+  Please follow the license and cite the DOI when you use this software.
 doi: xxx
 date-released: 2025-06-10
 url: "https://github.com/MKozai/CR-aniso"
