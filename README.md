@@ -11,7 +11,7 @@ GMDN data and descriptions: http://hdl.handle.net/10091/0002001448
   - geo_to_gse(): Convert spherical harmonics from the geocentric (GEO) coordinate system to the Geocentric Solar Ecliptic (GSE) coordinate system.
 
 ## Demonstrations
-- GEO_to_GSE_demo.ipynb: Demonstration to convert spherical harmonics from the GEO the the GSE coordinate system.
+- GEO_to_GSE_demo.ipynb: Demonstration to convert spherical harmonics from the GEO to the GSE coordinate system.
 
 ## License
 
