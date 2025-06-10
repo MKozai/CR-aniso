@@ -1,17 +1,23 @@
 Please follow the license and cite the DOI when you use this software.
 
 # CR-aniso
-Program codes to analyze cosmic-ray anisotropy and density observed by ground-based muon detectors and neutron monitors.
+Programs to analyze cosmic-ray anisotropies and density mainly observed by the Global Muon Detector Network (GMDN).
+
+GMDN data and descriptions: http://hdl.handle.net/10091/0002001448
 
 ## Contents
 - my_modules/spherical_harmonics.py: Functions handling anisotropy in spherical harmonics.
-  - Libraries: fire, numpy, pandarallel, pandas, pyshtools, pyspedas, pytplot, scipy, pickle
+  - Libraries: fire, numpy, pandarallel, pandas, pyshtools, pyspedas, pytplot, scipy.
+  - geo_to_gse(): Convert spherical harmonics from the geocentric (GEO) coordinate system to the Geocentric Solar Ecliptic (GSE) coordinate system.
+
+## Demonstrations
+- GEO_to_GSE_demo.ipynb: Demonstration to convert spherical harmonics from the GEO the the GSE coordinate system.
 
 ## License
 
-This code is released under the MIT License.
+These programs are released under the MIT License.
 
-It uses the following third-party libraries:
+They use the following third-party libraries:
 
 - [NumPy](https://numpy.org/) (BSD 3-Clause)
 - [Pandas](https://pandas.pydata.org/) (BSD 3-Clause)
