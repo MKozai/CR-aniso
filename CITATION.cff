@@ -7,6 +7,6 @@ authors:
 title: "CR-aniso"
 abstract: >
   Programs to analyze cosmic-ray anisotropies and density mainly observed by the Global Muon Detector Network (GMDN; http://hdl.handle.net/10091/0002001448 ). Please follow the license and cite the DOI when you use this software.
-doi: xxx
+doi: "10.5281/zenodo.15629341"
 date-released: 2025-06-10
 url: "https://github.com/MKozai/CR-aniso"
