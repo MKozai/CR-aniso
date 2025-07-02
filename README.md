@@ -21,11 +21,12 @@ GMDN data and descriptions: http://hdl.handle.net/10091/0002001448
 
 These programs are released under the MIT License.
 
-They use the following third-party libraries:
+They use the following third-party libraries with individual licenses:
 
 - [NumPy](https://numpy.org/) (BSD 3-Clause)
 - [Pandas](https://pandas.pydata.org/) (BSD 3-Clause)
 - [SciPy](https://scipy.org/) (BSD 3-Clause)
+- [matplotlib](https://matplotlib.org/) (BSD 3-Clause)
 - [PySHTOOLS](https://shtools.oca.eu/) (BSD 3-Clause)
 - [pandarallel](https://github.com/nalepae/pandarallel) (MIT)
 - [PySPEDAS](https://github.com/spedas/pyspedas) (MIT)
