@@ -48,7 +48,7 @@ def load(trange, sites, suffix='', time_clip=False, local_path='./gmdn_data/', n
                     files += [files_y[-1]]
             print(files)
         else:
-            remote_data_dir = 'https://polaris.nipr.ac.jp/~kozai-cr/data/gmdn/'
+            remote_data_dir = 'http://iugonet0.nipr.ac.jp/data/gmdn/nag/'
             pathformat = pathformat + '_%Y_v??.cdf'
             remote_names = dailynames(file_format=pathformat, trange=trange)
 
