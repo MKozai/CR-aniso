@@ -10,7 +10,7 @@ def load(trange, sites=['nag'], suffix='', time_clip=False, local_path='./gmdn_d
     trange: list[str]
         list of start and end dates in string 'YYYY-MM-DD'.
     sites: list[str]
-        List of site codes; 'nag' is Nagoya station.
+        List of site codes; 'nag' is Nagoya station. Default is ['nag'].
     suffix: str
         The tplot variable names will be given this suffix. By default, no suffix is added.
     time_clip: bool
@@ -49,7 +49,7 @@ def load(trange, sites=['nag'], suffix='', time_clip=False, local_path='./gmdn_d
                     files += [files_y[-1]]
             print(files)
         else:
-            remote_data_dir = 'http://iugonet0.nipr.ac.jp/data/gmdn/nag/'
+            remote_data_dir = f'http://iugonet0.nipr.ac.jp/data/gmdn/{site.lower()}/'
             pathformat = pathformat + '_%Y_v??.cdf'
             remote_names = dailynames(file_format=pathformat, trange=trange)
 
