@@ -1,16 +1,16 @@
 import pytplot
 
-def load(trange, sites, suffix='', time_clip=False, local_path='./gmdn_data/', no_download=False):
+def load(trange, sites=['nag'], suffix='', time_clip=False, local_path='./gmdn_data/', no_download=False):
 
     """
-    Load GMDN data in CDF format.
+    Load function for the GMDN data in the CDF format.
 
         Parameters
     ----------
     trange: list[str]
         list of start and end dates in string 'YYYY-MM-DD'.
     sites: list[str]
-        List of site codes.
+        List of site codes; 'nag' is Nagoya station.
     suffix: str
         The tplot variable names will be given this suffix. By default, no suffix is added.
     time_clip: bool
@@ -25,6 +25,7 @@ def load(trange, sites, suffix='', time_clip=False, local_path='./gmdn_data/', n
     list[int]
         list of loaded tplot variable names.
     """
+
     import pandas as pd
     import pyspedas as pys
     from pyspedas.utilities.dailynames import dailynames
